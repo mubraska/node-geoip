@@ -1,6 +1,6 @@
 {
   "name": "geoip-lite-country-only",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A light weight native JavaScript implementation of GeoIP API from MaxMind that includes only country data",
   "keywords": [
     "geo",
@@ -50,7 +50,7 @@
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/mubraska/node-geoip.zgit/issues"
+    "url": "https://github.com/mubraska/node-geoip.git/issues"
   },
   "directories": {
     "test": "test"

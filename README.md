@@ -10,7 +10,7 @@ Usage
 --------
 
 ```javascript
-var geoip = require('geoip-lite-country');
+var geoip = require('geoip-lite-country-only');
 
 var ip = "207.97.227.239";
 var geo = geoip.lookup(ip);
@@ -25,7 +25,7 @@ installation
 ------------
 ### 1. get the library
 
-    $ npm install geoip-lite-country
+    $ npm install geoip-lite-country-only
 
 ### 2. update the datafiles (optional)
 
@@ -89,7 +89,7 @@ You can also run it by doing:
 node ./node_modules/geoip-lite/scripts/updatedb.js
 ```
 
-Or, if you really want, run the update once by `require('geoip-lite-country/scripts/updatedb.js')`.
+Or, if you really want, run the update once by `require('geoip-lite-country-only/scripts/updatedb.js')`.
 
 Caveats
 -------
