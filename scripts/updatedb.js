@@ -36,24 +36,6 @@ var databases = [
 		url: 'https://geolite.maxmind.com/download/geoip/database/GeoIPv6.csv.gz',
 		src: 'GeoIPv6.csv',
 		dest: 'geoip-country6.dat'
-	},
-	{
-		type: 'city-extended',
-		url: 'https://geolite.maxmind.com/download/geoip/database/GeoLiteCity_CSV/GeoLiteCity-latest.zip',
-		src: [
-			'GeoLiteCity-Blocks.csv',
-			'GeoLiteCity-Location.csv'
-		],
-		dest: [
-			'geoip-city.dat',
-			'geoip-city-names.dat'
-		]
-	},
-	{
-		type: 'city',
-		url: 'https://geolite.maxmind.com/download/geoip/database/GeoLiteCityv6-beta/GeoLiteCityv6.csv.gz',
-		src: 'GeoLiteCityv6.csv',
-		dest: 'geoip-city6.dat'
 	}
 ];
 

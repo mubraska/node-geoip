@@ -1,33 +1,58 @@
 {
-	"name"        :  "geoip-lite",
-	"version"     :  "1.2.1",
-	"description" :  "A light weight native JavaScript implementation of GeoIP API from MaxMind",
-	"keywords"    :  ["geo", "geoip", "ip", "ipv4", "ipv6", "geolookup", "maxmind", "geolite"],
-	"homepage"    :  "https://github.com/bluesmoon/node-geoip",
-	"author"      :  "Philip Tellis <philip@bluesmoon.info> (http://bluesmoon.info/)",
-	"files"       :  ["lib/", "data/", "test/","scripts/"],
-	"main"        :  "lib/geoip.js",
-	"repository"  :  { "type": "git", "url": "git://github.com/bluesmoon/node-geoip.git" },
-	"engines"     :  { "node": ">=5.10.0" },
-	"scripts": {
-		"test": "nodeunit --reporter=minimal test/tests.js",
-		"updatedb": "node scripts/updatedb.js",
-		"updatedb-debug": "node scripts/updatedb.js debug"
-	},
-	"dependencies": {
-		"async": "^2.1.1",
-		"colors": "^1.1.2",
-		"glob": "^7.1.1",
-		"iconv-lite": "^0.4.13",
-		"lazy": "^1.0.11",
-		"rimraf": "^2.5.2",
-		"unzip": "^0.1.11"
-	},
-	"config": {
-		"update": true
-	},
-	"devDependencies": {
-		"nodeunit": "^0.10.2"
-	},
-	"license": "Apache-2.0"
+  "name": "geoip-lite-country-only",
+  "version": "1.0.0",
+  "description": "A light weight native JavaScript implementation of GeoIP API from MaxMind that includes only country data",
+  "keywords": [
+    "geo",
+    "geoip",
+    "ip",
+    "ipv4",
+    "ipv6",
+    "geolookup",
+    "maxmind",
+    "geolite"
+  ],
+  "homepage": "https://github.com/umaror/node-geoip",
+  "author": "David Ventura <davidventura3@gmail.com>",
+  "files": [
+    "lib/",
+    "data/",
+    "test/",
+    "scripts/"
+  ],
+  "main": "lib/geoip.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mubraska/node-geoip.zgit.git"
+  },
+  "engines": {
+    "node": ">=5.10.0"
+  },
+  "scripts": {
+    "test": "nodeunit --reporter=minimal test/tests.js",
+    "updatedb": "node scripts/updatedb.js",
+    "updatedb-debug": "node scripts/updatedb.js debug"
+  },
+  "dependencies": {
+    "async": "^2.1.1",
+    "colors": "^1.1.2",
+    "glob": "^7.1.1",
+    "iconv-lite": "^0.4.13",
+    "lazy": "^1.0.11",
+    "rimraf": "^2.5.2",
+    "unzip": "^0.1.11"
+  },
+  "config": {
+    "update": true
+  },
+  "devDependencies": {
+    "nodeunit": "^0.10.2"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mubraska/node-geoip.zgit/issues"
+  },
+  "directories": {
+    "test": "test"
+  }
 }
